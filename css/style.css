@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(/assets/interiores-en-auditorios.png) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    backdrop-filter: blur(3px);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 10rem;
+    padding: 0;
+    position: fixed;
+    z-index: 11;
+    background-color: wheat;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar ul li {
+    margin-bottom: 1rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #09162A;
+    font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+#navbar ul li a:hover {
+    color: #fff;
+}
+
+.container-main {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #09162A;
+    color: white;
+}
